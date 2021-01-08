@@ -23,7 +23,6 @@ struct ViewController :View {
                         var _b = Float(b) ?? 0
                         if(!a.isEmpty && !b.isEmpty){
                             self.result =  sqrt((_a * _a) + (_b * _b))
-                            self.f = String(self.result)
                             
                             
                         }
@@ -46,4 +45,4 @@ struct ViewController :View {
 
 PlaygroundPage.current.setLiveView(ViewController())
 
-	◦	
+		
